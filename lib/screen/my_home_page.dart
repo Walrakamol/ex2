@@ -41,14 +41,16 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: incrementCounter,
               child: const Icon(Icons.add),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.red),
+                backgroundColor:
+                    MaterialStateProperty.all(Color.fromARGB(255, 24, 141, 20)),
               ),
             ),
             ElevatedButton(
               onPressed: decrementCounter,
               child: const Icon(Icons.remove),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.green),
+                backgroundColor:
+                    MaterialStateProperty.all(Color.fromARGB(255, 33, 14, 139)),
               ),
             ),
           ],
